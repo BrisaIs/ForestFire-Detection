@@ -1,0 +1,28 @@
+@relation 'forestal fire-weka.filters.unsupervised.attribute.Remove-R21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,40-weka.filters.unsupervised.attribute.ReplaceMissingValues'
+
+@attribute rgb_b_min numeric
+@attribute rgb_b_median numeric
+@attribute rgb_b_max numeric
+@attribute rgb_g_min numeric
+@attribute rgb_g_median numeric
+@attribute rgb_g_max numeric
+@attribute rgb_r_min numeric
+@attribute rgb_r_median numeric
+@attribute rgb_r_max numeric
+@attribute gray_r_min numeric
+@attribute gray_r_median numeric
+@attribute gray_r_max numeric
+@attribute ycrcn_y_min numeric
+@attribute ycrcn_y_median numeric
+@attribute ycrcn_y_max numeric
+@attribute ycrcn_cr_min numeric
+@attribute ycrcn_cr_median numeric
+@attribute ycrcn_cr_max numeric
+@attribute ycrcn_cn_min numeric
+@attribute ycrcn_cn_median numeric
+@attribute lab_b_max numeric
+
+@data
+139.939725,115.146734,171.284399,144.331992,115.118028,166.564094,146.449816,111.210896,167.885722,148.105687,115.86929,166.687645,146.550866,116.13187,167.524001,124.740488,127.319855,130.368812,130.359812,125.751875,128.938088
+60.436476,159.209273,61.597156,55.080512,154.361903,70.622052,57.952835,140.728716,75.526637,55.901216,153.774796,71.191972,54.325073,155.587792,68.754525,111.346999,128.993319,124.051847,134.718723,123.847713,125.199623
+59.952596,160.016505,75.036273,70.919969,101.687554,127.077728,104.522407,59.10191,227.953363,86.800115,106.246713,140.021975,71.125228,126.685539,117.302658,76.179253,140.054985,101.94703,163.424048,112.077536,91.000192

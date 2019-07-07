@@ -1,0 +1,102 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.GainRatioAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     forestal fire
+Instances:    42600
+Attributes:   40
+              rgb_b_min
+              rgb_b_median
+              rgb_b_max
+              rgb_g_min
+              rgb_g_median
+              rgb_g_max
+              rgb_r_min
+              rgb_r_median
+              rgb_r_max
+              gray_r_min
+              gray_r_median
+              gray_r_max
+              ycrcn_y_min
+              ycrcn_y_median
+              ycrcn_y_max
+              ycrcn_cr_min
+              ycrcn_cr_median
+              ycrcn_cr_max
+              ycrcn_cn_min
+              ycrcn_cn_median
+              ycrcn_cn_max
+              hsv_h_min
+              hsv_h_median
+              hsv_h_max
+              hsv_s_min
+              hsv_s_median
+              hsv_s_max
+              hsv_v_min
+              hsv_v_median
+              hsv_v_max
+              lab_l_min
+              lab_l_median
+              lab_l_max
+              lab_a_min
+              lab_a_median
+              lab_a_max
+              lab_b_min
+              lab_b_median
+              lab_b_max
+              class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 40 class):
+	Gain Ratio feature evaluator
+
+Ranked attributes:
+  0   39 lab_b_max
+  0   14 ycrcn_y_median
+  0   12 gray_r_max
+  0   13 ycrcn_y_min
+  0   15 ycrcn_y_max
+  0   10 gray_r_min
+  0   16 ycrcn_cr_min
+  0   17 ycrcn_cr_median
+  0   11 gray_r_median
+  0    9 rgb_r_max
+  0   19 ycrcn_cn_min
+  0    4 rgb_g_min
+  0    2 rgb_b_median
+  0    3 rgb_b_max
+  0    5 rgb_g_median
+  0    8 rgb_r_median
+  0    6 rgb_g_max
+  0    7 rgb_r_min
+  0   18 ycrcn_cr_max
+  0   20 ycrcn_cn_median
+  0   38 lab_b_median
+  0   34 lab_a_min
+  0   32 lab_l_median
+  0   33 lab_l_max
+  0   35 lab_a_median
+  0   30 hsv_v_max
+  0   36 lab_a_max
+  0   37 lab_b_min
+  0   31 lab_l_min
+  0   29 hsv_v_median
+  0   21 ycrcn_cn_max
+  0   24 hsv_h_max
+  0   22 hsv_h_min
+  0   23 hsv_h_median
+  0   25 hsv_s_min
+  0   28 hsv_v_min
+  0   26 hsv_s_median
+  0   27 hsv_s_max
+  0    1 rgb_b_min
+
+Selected attributes: 39,14,12,13,15,10,16,17,11,9,19,4,2,3,5,8,6,7,18,20,38,34,32,33,35,30,36,37,31,29,21,24,22,23,25,28,26,27,1 : 39
+

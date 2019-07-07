@@ -1,0 +1,68 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     forestal fire
+Instances:    42600
+Attributes:   40
+              rgb_b_min
+              rgb_b_median
+              rgb_b_max
+              rgb_g_min
+              rgb_g_median
+              rgb_g_max
+              rgb_r_min
+              rgb_r_median
+              rgb_r_max
+              gray_r_min
+              gray_r_median
+              gray_r_max
+              ycrcn_y_min
+              ycrcn_y_median
+              ycrcn_y_max
+              ycrcn_cr_min
+              ycrcn_cr_median
+              ycrcn_cr_max
+              ycrcn_cn_min
+              ycrcn_cn_median
+              ycrcn_cn_max
+              hsv_h_min
+              hsv_h_median
+              hsv_h_max
+              hsv_s_min
+              hsv_s_median
+              hsv_s_max
+              hsv_v_min
+              hsv_v_median
+              hsv_v_max
+              lab_l_min
+              lab_l_median
+              lab_l_max
+              lab_a_min
+              lab_a_median
+              lab_a_max
+              lab_b_min
+              lab_b_median
+              lab_b_max
+              class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 191
+	Merit of best subset found:    0    
+
+Attribute Subset Evaluator (supervised, Class (nominal): 40 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 1 : 1
+                     rgb_b_min
+
